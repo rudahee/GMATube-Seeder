@@ -1,1 +1,42 @@
-.idea
+# IDE
+.idea/
+.vscode/
+
+# Go build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Local configuration
+config.json
+*.local.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage / profiling
+coverage.out
+*.cover
+*.prof
+
+# Vendor, si no quieres subir dependencias vendorizadas
+vendor/
